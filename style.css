@@ -1,0 +1,128 @@
+root {
+  --primary-color: #000000;
+  --secondary-color: #3a3a3a;
+  --padding-s: 10px;
+  --padding-m: 20px;
+  --padding-l: 30px;
+  --margin-s: 10px;
+  --margin-m: 20px; 
+    --margin-l: 30px;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+nav span {
+
+  padding: 10px;
+  font-size: .8rem;
+  color: #3a3a3a;
+  cursor: pointer;
+  
+}
+
+nav span:hover {
+  color: #000000;
+
+}
+nav {
+  gap: 20px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FBFBFD;
+  padding: .1rem;
+  position: sticky;
+  opacity: .9;
+}
+
+.dFACJC {
+  display: flex;
+  align-items: center;
+    justify-content: center;
+}
+#offer{
+    padding: 12px;
+}
+#offer div{
+    font-size: .92rem;
+    color: #3a3a3a;
+}
+
+.hero {
+    position: relative;
+text-align: center;
+margin-bottom: .8rem;
+}
+
+.hero-image{
+    object-fit: cover;
+height: 692px;
+width: 100%;
+}
+
+.hero-text{
+position: absolute;
+top: 50%;
+left: 50%;  
+transform: translate(-50%, -50%);
+color: #ffffff;
+margin-top: 200px;
+}
+
+.hero-text h1{  
+font-size: 3.3rem;
+font-weight: 600;
+margin:0;
+}
+.hero-text p{  
+font-size: 1.7rem;
+margin:0;
+}
+
+.blue-button {
+    background-color: #0071E3;
+    border-radius: 20px;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.white-button {
+    background-color: #ffffff;
+    border-radius: 20px;
+    color: #0071E3;
+    border: 1px solid #0071E3;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.black{
+  color: #000000;
+}
+
+.hero-text-iphone {
+position: absolute;
+top: 50%; 
+left: 50%;
+transform: translate(-50%, -50%);
+color: #000000;
+padding-bottom: 400px;
+}
+
+
