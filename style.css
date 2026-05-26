@@ -130,4 +130,68 @@ nav {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+  
 }
+
+.grid-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000000;
+  visibility: hidden;
+}
+
+.slides{
+
+width: 100%;
+display:flex;
+padding-top: 10px;
+padding-bottom: 10px;
+overflow-x: scroll;
+}
+
+.slide img{
+  width: 1250px;
+  height: 667.25px;
+  padding-left: 10px;
+
+}
+
+.slide img:last-child {
+  padding-right: 10px;
+}
+.slides::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+.slider-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.slider-nav button {
+  background-color: rgb(121, 121, 121);
+  border-radius: 20px;
+  height: 20px;
+  width: 20px;
+ margin: 0 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #fbfbfd;
+  padding: 20px;
+  text-align: center;
+  color: #3a3a3a;
+  font-size: 0.9rem;
+}
+
+.footer-para{
+
+
+}
+
+.footer
